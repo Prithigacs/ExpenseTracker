@@ -1,0 +1,88 @@
+/* Global Styles */
+body {
+  background-color: #f8f9fa;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Stylish Card */
+.card {
+  border-radius: 12px;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Balance Section */
+.balance-card {
+  background: linear-gradient(to right, #4caf50, #81c784);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Buttons */
+.btn-primary {
+  background: linear-gradient(to right, #007bff, #0056b3);
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(to right, #0056b3, #004494);
+}
+
+.btn-danger {
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-danger:hover {
+  background: #c82333;
+  transform: scale(1.1);
+}
+
+/* Transaction List */
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  font-size: 16px;
+  padding: 12px;
+  transition: all 0.3s ease-in-out;
+}
+
+.list-group-item:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Income & Expense Card */
+.income-card {
+  background: #d4edda;
+  color: #155724;
+  font-weight: bold;
+}
+
+.expense-card {
+  background: #f8d7da;
+  color: #721c24;
+  font-weight: bold;
+}
+
+/* Chart Styling */
+.chart-container {
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
